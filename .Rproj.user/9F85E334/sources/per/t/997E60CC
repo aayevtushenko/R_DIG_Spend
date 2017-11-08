@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1380826684",
     "id" : "997E60CC",
-    "lastKnownWriteTime" : 1510169616,
-    "last_content_update" : 1510169616227,
+    "lastKnownWriteTime" : 1510169699,
+    "last_content_update" : 1510169699860,
     "path" : "~/R_double_click/first.R",
     "project_path" : "first.R",
     "properties" : {
-        "cursorPosition" : "50,10",
+        "cursorPosition" : "58,1",
         "scrollLine" : "34",
         "tempName" : "Untitled1"
     },
