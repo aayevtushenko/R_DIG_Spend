@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510161813764.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E0D33C5E",
+    "lastKnownWriteTime" : 7308604914264011873,
+    "last_content_update" : 1510161813764,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "D6458DF3",
+        "caption" : "prisma_marshalls_cleaned",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=prisma_marshalls_cleaned&cache_key=D6458DF3",
+        "displayedObservations" : 178,
+        "environment" : "",
+        "object" : "prisma_marshalls_cleaned",
+        "preview" : 0,
+        "totalObservations" : 178,
+        "variables" : 30
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

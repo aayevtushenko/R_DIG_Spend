@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510161829282.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "780166F7",
+    "lastKnownWriteTime" : 7308604914264011873,
+    "last_content_update" : 1510161829282,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "B6D9947A",
+        "caption" : "marshalls_combined_data",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=marshalls_combined_data&cache_key=B6D9947A",
+        "displayedObservations" : "382",
+        "environment" : "",
+        "object" : "marshalls_combined_data",
+        "preview" : "0",
+        "totalObservations" : "382",
+        "variables" : "8"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

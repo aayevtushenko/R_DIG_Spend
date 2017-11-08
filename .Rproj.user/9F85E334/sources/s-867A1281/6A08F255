@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510163431307.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6A08F255",
+    "lastKnownWriteTime" : 7308604914264011873,
+    "last_content_update" : 1510163431307,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "6B61C842",
+        "caption" : "marshalls_combined_data_week36",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=marshalls_combined_data_week36&cache_key=6B61C842",
+        "displayedObservations" : "178",
+        "environment" : "",
+        "object" : "marshalls_combined_data_week36",
+        "preview" : "0",
+        "totalObservations" : "178",
+        "variables" : "7"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

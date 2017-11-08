@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510162227375.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E13FA81E",
+    "lastKnownWriteTime" : 7308604914264011873,
+    "last_content_update" : 1510162227375,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "CFB322BB",
+        "caption" : "dcm_marshal_reports",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=dcm_marshal_reports&cache_key=CFB322BB",
+        "displayedObservations" : 1587,
+        "environment" : "",
+        "object" : "dcm_marshal_reports",
+        "preview" : 0,
+        "totalObservations" : 1587,
+        "variables" : 7
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

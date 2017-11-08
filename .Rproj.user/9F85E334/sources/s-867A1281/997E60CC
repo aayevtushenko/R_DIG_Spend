@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510153306152.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "997E60CC",
+    "lastKnownWriteTime" : 1510169616,
+    "last_content_update" : 1510169616227,
+    "path" : "~/R_double_click/first.R",
+    "project_path" : "first.R",
+    "properties" : {
+        "cursorPosition" : "50,10",
+        "scrollLine" : "34",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
