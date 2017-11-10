@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510182587667.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3650172198",
+    "id" : "89D07B9",
+    "lastKnownWriteTime" : 1510268833,
+    "last_content_update" : 1510268833480,
+    "path" : "~/GitHub/R_double_click/script/marshall_spend.R",
+    "project_path" : "script/marshall_spend.R",
+    "properties" : {
+        "cursorPosition" : "115,0",
+        "scrollLine" : "87"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
