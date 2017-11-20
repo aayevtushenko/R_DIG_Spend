@@ -1,0 +1,6 @@
+cost method,metric,rate,total planned
+CPMV,2000,100,1000
+CPMV,4000,100,1000
+Flat,0,0,1000
+Flat,0,0,0
+Free,1,2,3
