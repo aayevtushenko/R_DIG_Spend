@@ -2,7 +2,7 @@ import pandas as pd
 
 def safe_div(x,y):
     if y == 0:
-        return x
+        return y
     return x / y
 
 # to be used in apply function
@@ -18,16 +18,7 @@ def applyCalculateSpend (df_name, cost_method_col, metric_col, rate_col, total_p
 '''
 # USED FOR TESTS
 test_df = pd.read_csv('data_for_hg/prisma_test.csv')
-
-test_df['spend'] = test_df.apply(lambda row: applyCalculateSpend(
-row,
-cost_method_col='cost method',
-metric_col='metric',
-rate_col='rate',
-total_planned_col='total planned'), axis = 1)
-'''
-
-'''
+    
 # Use the where method
 test_df['Spend'] = np.where(test_df['cost method'] == 'CPMV', test_df.metric/1000 * test_df.rate,
            np.where(test_df['cost method'] == 'Flat', 5,0))
@@ -36,7 +27,8 @@ test_df['Spend'] = np.where(test_df['cost method'] == 'CPMV', test_df.metric/100
 # Open all tables
 dcm_hg = pd.read_csv('data_for_hg/dcm_homegoods_Sep-Oct.csv', header=10)
 dv_hg = pd.read_csv('data_for_hg/dv_homegoods.csv')
-prisma_hg = pd.read_excel('data_for_hg/prisma_homegoods.xlsx', sheetname='2h')
+prisma_hg = pd.read_excel('data_for_hg/prisma_homegood.xlsx', sheetname='2h')
+prisma_hg = pd.concat([prisma_hg, pd.read_excel('data_for_hg/prisma_homegood.xlsx', sheetname='q4')])
 
 # DCM
 dcm_hg['PCode'] = dcm_hg['Package/Roadblock'].str[:6] # get PCode
@@ -96,23 +88,20 @@ for i in dcm_dv_hg['Week'].unique():
         
 dig_spend.to_csv('dig_spend.csv', index=False)
 
+
+
+
 print('\n'*3)
-print("""███╗   ███╗██╗███╗   ██╗██████╗ ███████╗██╗  ██╗ █████╗ ██████╗ ███████╗
-████╗ ████║██║████╗  ██║██╔══██╗██╔════╝██║  ██║██╔══██╗██╔══██╗██╔════╝
-██╔████╔██║██║██╔██╗ ██║██║  ██║███████╗███████║███████║██████╔╝█████╗  
-██║╚██╔╝██║██║██║╚██╗██║██║  ██║╚════██║██╔══██║██╔══██║██╔══██╗██╔══╝  
-██║ ╚═╝ ██║██║██║ ╚████║██████╔╝███████║██║  ██║██║  ██║██║  ██║███████╗
-╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-                                                                        
-███╗   ███╗ █████╗ ██████╗ ███████╗ ██████╗██╗                          
-████╗ ████║██╔══██╗██╔══██╗██╔════╝██╔════╝██║                          
-██╔████╔██║███████║██████╔╝███████╗██║     ██║                          
-██║╚██╔╝██║██╔══██║██╔══██╗╚════██║██║     ██║                          
-██║ ╚═╝ ██║██║  ██║██║  ██║███████║╚██████╗██║                          
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝                          
+print("""
+
+MINDSHARE
+MARKETING SCIENCES                          
                                                                         
 """)
-print('Total spend is %f' % (dig_spend.sum(numeric_only=True)['spend']))
+print('Total spend is %f\n' % (dig_spend.sum(numeric_only=True)['spend']))
+print('Total spend by partner is...\n')
+print(dig_spend.groupby(dig_spend.Supplier).sum().spend)
+
     
     
     
